@@ -8,6 +8,7 @@ import CadastroUsuario from './components/CadastroUsuario';
 import Agendamento from './components/Agendamento';
 import Profile from './components/Profile';
 import Dashboard from './components/Dashboard';
+import MedicalRecord from "./components/MedicalRecord";
 import  './components/App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/Agendamento" element={<Agendamento />} />
                     <Route path="/profile" element={<Profile />} />
                     <Route path="/dashboard" element={<Dashboard />} />
+                    <Route path="/MedicalRecord" element={<MedicalRecord />}/>
                 </Routes>
                 <Footer />
             </div>
@@ -30,6 +32,4 @@ function App() {
 }
 
 export default App;
-
-
 
